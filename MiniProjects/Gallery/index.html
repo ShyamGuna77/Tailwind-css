@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- global -->
+    <div class="flex  min-h-screen items-center justify-center bg-cyan-100  ">
+        <!-- item -->
+        <div class="bg-white p-6 m-3 space-y-10 shadow-2xl md:p-40 rounded-3xl">
+            <!-- menu card -->
+          
+       <div class="flex flex-col md:flex-row justify-center items-center md:space-y-0 md:space-x-8 md:mb-24 md:justify-end  ">
+        <!-- menu items -->
+         <div class="group">
+           <a href="#">Vector</a>
+           <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100""></div>
+         </div>
+
+            <div class="group">
+           <a href="#">Illustations</a>
+           <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100""></div>
+         </div>
+
+            <div class="group">
+           <a href="#">Images</a>
+           <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100""></div>
+         </div>
+
+            <div class="group">
+           <a href="#">Icons</a>
+           <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100""></div>
+         </div>
+       </div>
+
+       <!-- seaech -->
+           <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+
+             <div class="flex justify-between border-b">
+
+       <input class="ml-6 border-none md:w-80 placeholder:font-thin focus:outline-none" type="text" placeholder="Search">
+
+       <button>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <circle cx="10" cy="10" r="7" />
+                <line x1="21" y1="21" x2="15" y2="15" />
+              </svg>
+            </button>
+
+       </div>
+
+       <!-- upload -->
+
+       <button class="bg-black text-white border border-black rounded-lg h-[50px] hover:bg-white hover:text-black">
+        Upload
+       </button>
+       </div>
+
+       <!-- images -->
+        
+
+ </div>
+    </div>
+    
+</body>
+</html>
