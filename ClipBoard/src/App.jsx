@@ -1,5 +1,6 @@
 import Header from "./Components/Header"
 import Info from "./Components/Info"
+import Image from "./Components/Image"
 function App() {
   
 
@@ -7,6 +8,8 @@ function App() {
    <>
     <Header />
      <Info />
+    <Image />
+    <Header />
 
     </>
   )
