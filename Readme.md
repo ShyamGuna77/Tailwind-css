@@ -1,6 +1,5 @@
-# Tailwind Sandbox
+# Tailwind Projects
 
- The sandbox contains around 20 different folders/files that focus on specific aspects/classes of Tailwind 
+- This Repo contains all my Practises and Learnings, tricks i have learned while Creating this projects
 
- Playing with tailwind
  
